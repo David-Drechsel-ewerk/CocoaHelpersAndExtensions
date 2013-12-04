@@ -8,3 +8,4 @@
 
 #import "NSFileManager+PathHelpers.h"
 #import "UIView+MotionEffects.h"
+#import "UIView+QuickAnimations.h"

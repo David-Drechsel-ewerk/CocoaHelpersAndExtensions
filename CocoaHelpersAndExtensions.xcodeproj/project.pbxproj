@@ -20,9 +20,8 @@
 		14225F171847440500124907 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225F161847440500124907 /* XCTest.framework */; };
 		14225F181847440500124907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF41847440500124907 /* Foundation.framework */; };
 		14225F191847440500124907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF81847440500124907 /* UIKit.framework */; };
-		14225F211847440500124907 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14225F1F1847440500124907 /* InfoPlist.strings */; };
-		14225F231847440500124907 /* CocoaHelpersAndExtensionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225F221847440500124907 /* CocoaHelpersAndExtensionsTests.m */; };
 		14225F2E184744A500124907 /* NSFileManager+PathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225F2D184744A500124907 /* NSFileManager+PathHelpers.m */; };
+		14BC15AF184CBA7400D32A31 /* UIView+QuickAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */; };
 		14E993621848C81D00DD0416 /* UIView+MotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E993611848C81D00DD0416 /* UIView+MotionEffects.m */; };
 /* End PBXBuildFile section */
 
@@ -55,12 +54,11 @@
 		14225F0F1847440500124907 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14225F151847440500124907 /* CocoaHelpersAndExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaHelpersAndExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14225F161847440500124907 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		14225F1E1847440500124907 /* CocoaHelpersAndExtensionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaHelpersAndExtensionsTests-Info.plist"; sourceTree = "<group>"; };
-		14225F201847440500124907 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		14225F221847440500124907 /* CocoaHelpersAndExtensionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaHelpersAndExtensionsTests.m; sourceTree = "<group>"; };
 		14225F2C184744A500124907 /* NSFileManager+PathHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+PathHelpers.h"; sourceTree = "<group>"; };
 		14225F2D184744A500124907 /* NSFileManager+PathHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+PathHelpers.m"; sourceTree = "<group>"; };
 		14225F30184747F500124907 /* DDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDExtensions.h; sourceTree = "<group>"; };
+		14BC15AD184CBA7400D32A31 /* UIView+QuickAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickAnimations.h"; sourceTree = "<group>"; };
+		14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickAnimations.m"; sourceTree = "<group>"; };
 		14E993601848C81D00DD0416 /* UIView+MotionEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionEffects.h"; sourceTree = "<group>"; };
 		14E993611848C81D00DD0416 /* UIView+MotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				14225EFA1847440500124907 /* CocoaHelpersAndExtensions */,
-				14225F1C1847440500124907 /* CocoaHelpersAndExtensionsTests */,
 				14225EF31847440500124907 /* Frameworks */,
 				14225EF21847440500124907 /* Products */,
 			);
@@ -147,27 +144,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		14225F1C1847440500124907 /* CocoaHelpersAndExtensionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				14225F221847440500124907 /* CocoaHelpersAndExtensionsTests.m */,
-				14225F1D1847440500124907 /* Supporting Files */,
-			);
-			path = CocoaHelpersAndExtensionsTests;
-			sourceTree = "<group>";
-		};
-		14225F1D1847440500124907 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				14225F1E1847440500124907 /* CocoaHelpersAndExtensionsTests-Info.plist */,
-				14225F1F1847440500124907 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		14225F2F184747C000124907 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				14BC15AD184CBA7400D32A31 /* UIView+QuickAnimations.h */,
+				14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */,
 				14E993601848C81D00DD0416 /* UIView+MotionEffects.h */,
 				14E993611848C81D00DD0416 /* UIView+MotionEffects.m */,
 				14225F2C184744A500124907 /* NSFileManager+PathHelpers.h */,
@@ -264,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14225F211847440500124907 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +258,7 @@
 				14225F2E184744A500124907 /* NSFileManager+PathHelpers.m in Sources */,
 				14225F051847440500124907 /* DDAppDelegate.m in Sources */,
 				14225F0E1847440500124907 /* DDDetailViewController.m in Sources */,
+				14BC15AF184CBA7400D32A31 /* UIView+QuickAnimations.m in Sources */,
 				14225F011847440500124907 /* main.m in Sources */,
 				14225F0B1847440500124907 /* DDMasterViewController.m in Sources */,
 				14E993621848C81D00DD0416 /* UIView+MotionEffects.m in Sources */,
@@ -288,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14225F231847440500124907 /* CocoaHelpersAndExtensionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,14 +297,6 @@
 				14225F071847440500124907 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		14225F1F1847440500124907 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14225F201847440500124907 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
