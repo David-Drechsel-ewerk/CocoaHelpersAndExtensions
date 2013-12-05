@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1416E3B318507AEA003DDC97 /* UIBarButtonItem+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416E3B218507AEA003DDC97 /* UIBarButtonItem+Convenience.m */; };
 		14225EF51847440500124907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF41847440500124907 /* Foundation.framework */; };
 		14225EF71847440500124907 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF61847440500124907 /* CoreGraphics.framework */; };
 		14225EF91847440500124907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF81847440500124907 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1416E3B118507AEA003DDC97 /* UIBarButtonItem+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Convenience.h"; sourceTree = "<group>"; };
+		1416E3B218507AEA003DDC97 /* UIBarButtonItem+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Convenience.m"; sourceTree = "<group>"; };
 		14225EF11847440500124907 /* CocoaHelpersAndExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHelpersAndExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14225EF41847440500124907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14225EF61847440500124907 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,6 +150,8 @@
 		14225F2F184747C000124907 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1416E3B118507AEA003DDC97 /* UIBarButtonItem+Convenience.h */,
+				1416E3B218507AEA003DDC97 /* UIBarButtonItem+Convenience.m */,
 				14BC15AD184CBA7400D32A31 /* UIView+QuickAnimations.h */,
 				14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */,
 				14E993601848C81D00DD0416 /* UIView+MotionEffects.h */,
@@ -261,6 +266,7 @@
 				14BC15AF184CBA7400D32A31 /* UIView+QuickAnimations.m in Sources */,
 				14225F011847440500124907 /* main.m in Sources */,
 				14225F0B1847440500124907 /* DDMasterViewController.m in Sources */,
+				1416E3B318507AEA003DDC97 /* UIBarButtonItem+Convenience.m in Sources */,
 				14E993621848C81D00DD0416 /* UIView+MotionEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
