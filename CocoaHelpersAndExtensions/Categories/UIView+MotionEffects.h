@@ -12,4 +12,5 @@
 
 -(void)addTranslationMotionEffectWithXOffset:(float)xOffset yOffset:(float)yOffset;
 -(void)addRotationMotionEffectWithAngle:(float)angleDegrees;
+
 @end

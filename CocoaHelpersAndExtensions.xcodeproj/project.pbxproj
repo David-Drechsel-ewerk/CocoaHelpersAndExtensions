@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1416E3B318507AEA003DDC97 /* UIBarButtonItem+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 1416E3B218507AEA003DDC97 /* UIBarButtonItem+Convenience.m */; };
 		14225EF51847440500124907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF41847440500124907 /* Foundation.framework */; };
 		14225EF71847440500124907 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF61847440500124907 /* CoreGraphics.framework */; };
 		14225EF91847440500124907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF81847440500124907 /* UIKit.framework */; };
@@ -21,9 +20,11 @@
 		14225F171847440500124907 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225F161847440500124907 /* XCTest.framework */; };
 		14225F181847440500124907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF41847440500124907 /* Foundation.framework */; };
 		14225F191847440500124907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14225EF81847440500124907 /* UIKit.framework */; };
-		14225F2E184744A500124907 /* NSFileManager+PathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 14225F2D184744A500124907 /* NSFileManager+PathHelpers.m */; };
-		14BC15AF184CBA7400D32A31 /* UIView+QuickAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */; };
-		14E993621848C81D00DD0416 /* UIView+MotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E993611848C81D00DD0416 /* UIView+MotionEffects.m */; };
+		14FE8A841855FA9100F6D4B9 /* NSFileManager+PathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE8A7D1855FA9100F6D4B9 /* NSFileManager+PathHelpers.m */; };
+		14FE8A851855FA9100F6D4B9 /* UIBarButtonItem+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE8A7F1855FA9100F6D4B9 /* UIBarButtonItem+Convenience.m */; };
+		14FE8A861855FA9100F6D4B9 /* UIView+MotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE8A811855FA9100F6D4B9 /* UIView+MotionEffects.m */; };
+		14FE8A871855FA9100F6D4B9 /* UIView+QuickAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE8A831855FA9100F6D4B9 /* UIView+QuickAnimations.m */; };
+		14FE8A8B1855FAA500F6D4B9 /* UICustomIBAttributeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE8A8A1855FAA500F6D4B9 /* UICustomIBAttributeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1416E3B118507AEA003DDC97 /* UIBarButtonItem+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Convenience.h"; sourceTree = "<group>"; };
-		1416E3B218507AEA003DDC97 /* UIBarButtonItem+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Convenience.m"; sourceTree = "<group>"; };
 		14225EF11847440500124907 /* CocoaHelpersAndExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaHelpersAndExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14225EF41847440500124907 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14225EF61847440500124907 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,13 +56,17 @@
 		14225F0F1847440500124907 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14225F151847440500124907 /* CocoaHelpersAndExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaHelpersAndExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14225F161847440500124907 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		14225F2C184744A500124907 /* NSFileManager+PathHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+PathHelpers.h"; sourceTree = "<group>"; };
-		14225F2D184744A500124907 /* NSFileManager+PathHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+PathHelpers.m"; sourceTree = "<group>"; };
 		14225F30184747F500124907 /* DDExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDExtensions.h; sourceTree = "<group>"; };
-		14BC15AD184CBA7400D32A31 /* UIView+QuickAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickAnimations.h"; sourceTree = "<group>"; };
-		14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickAnimations.m"; sourceTree = "<group>"; };
-		14E993601848C81D00DD0416 /* UIView+MotionEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionEffects.h"; sourceTree = "<group>"; };
-		14E993611848C81D00DD0416 /* UIView+MotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionEffects.m"; sourceTree = "<group>"; };
+		14FE8A7C1855FA9100F6D4B9 /* NSFileManager+PathHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+PathHelpers.h"; sourceTree = "<group>"; };
+		14FE8A7D1855FA9100F6D4B9 /* NSFileManager+PathHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+PathHelpers.m"; sourceTree = "<group>"; };
+		14FE8A7E1855FA9100F6D4B9 /* UIBarButtonItem+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Convenience.h"; sourceTree = "<group>"; };
+		14FE8A7F1855FA9100F6D4B9 /* UIBarButtonItem+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Convenience.m"; sourceTree = "<group>"; };
+		14FE8A801855FA9100F6D4B9 /* UIView+MotionEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionEffects.h"; sourceTree = "<group>"; };
+		14FE8A811855FA9100F6D4B9 /* UIView+MotionEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionEffects.m"; sourceTree = "<group>"; };
+		14FE8A821855FA9100F6D4B9 /* UIView+QuickAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuickAnimations.h"; sourceTree = "<group>"; };
+		14FE8A831855FA9100F6D4B9 /* UIView+QuickAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuickAnimations.m"; sourceTree = "<group>"; };
+		14FE8A891855FAA500F6D4B9 /* UICustomIBAttributeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomIBAttributeLabel.h; sourceTree = "<group>"; };
+		14FE8A8A1855FAA500F6D4B9 /* UICustomIBAttributeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomIBAttributeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,17 +153,36 @@
 		14225F2F184747C000124907 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1416E3B118507AEA003DDC97 /* UIBarButtonItem+Convenience.h */,
-				1416E3B218507AEA003DDC97 /* UIBarButtonItem+Convenience.m */,
-				14BC15AD184CBA7400D32A31 /* UIView+QuickAnimations.h */,
-				14BC15AE184CBA7400D32A31 /* UIView+QuickAnimations.m */,
-				14E993601848C81D00DD0416 /* UIView+MotionEffects.h */,
-				14E993611848C81D00DD0416 /* UIView+MotionEffects.m */,
-				14225F2C184744A500124907 /* NSFileManager+PathHelpers.h */,
-				14225F2D184744A500124907 /* NSFileManager+PathHelpers.m */,
 				14225F30184747F500124907 /* DDExtensions.h */,
+				14FE8A881855FAA500F6D4B9 /* Subclasses */,
+				14FE8A7B1855FA9100F6D4B9 /* Categories */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		14FE8A7B1855FA9100F6D4B9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				14FE8A7C1855FA9100F6D4B9 /* NSFileManager+PathHelpers.h */,
+				14FE8A7D1855FA9100F6D4B9 /* NSFileManager+PathHelpers.m */,
+				14FE8A7E1855FA9100F6D4B9 /* UIBarButtonItem+Convenience.h */,
+				14FE8A7F1855FA9100F6D4B9 /* UIBarButtonItem+Convenience.m */,
+				14FE8A801855FA9100F6D4B9 /* UIView+MotionEffects.h */,
+				14FE8A811855FA9100F6D4B9 /* UIView+MotionEffects.m */,
+				14FE8A821855FA9100F6D4B9 /* UIView+QuickAnimations.h */,
+				14FE8A831855FA9100F6D4B9 /* UIView+QuickAnimations.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		14FE8A881855FAA500F6D4B9 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				14FE8A891855FAA500F6D4B9 /* UICustomIBAttributeLabel.h */,
+				14FE8A8A1855FAA500F6D4B9 /* UICustomIBAttributeLabel.m */,
+			);
+			name = Subclasses;
+			path = Categories/Subclasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,14 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14225F2E184744A500124907 /* NSFileManager+PathHelpers.m in Sources */,
 				14225F051847440500124907 /* DDAppDelegate.m in Sources */,
+				14FE8A8B1855FAA500F6D4B9 /* UICustomIBAttributeLabel.m in Sources */,
 				14225F0E1847440500124907 /* DDDetailViewController.m in Sources */,
-				14BC15AF184CBA7400D32A31 /* UIView+QuickAnimations.m in Sources */,
+				14FE8A861855FA9100F6D4B9 /* UIView+MotionEffects.m in Sources */,
+				14FE8A841855FA9100F6D4B9 /* NSFileManager+PathHelpers.m in Sources */,
+				14FE8A871855FA9100F6D4B9 /* UIView+QuickAnimations.m in Sources */,
 				14225F011847440500124907 /* main.m in Sources */,
+				14FE8A851855FA9100F6D4B9 /* UIBarButtonItem+Convenience.m in Sources */,
 				14225F0B1847440500124907 /* DDMasterViewController.m in Sources */,
-				1416E3B318507AEA003DDC97 /* UIBarButtonItem+Convenience.m in Sources */,
-				14E993621848C81D00DD0416 /* UIView+MotionEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
