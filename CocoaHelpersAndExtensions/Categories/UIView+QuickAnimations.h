@@ -11,5 +11,6 @@
 @interface UIView (QuickAnimations)
 
 -(void)spinWithDuration:(NSTimeInterval)spinTime repeatCount:(float)repeatCount;
+-(void)spinWithDuration:(NSTimeInterval)spinTime repeatCount:(float)repeatCount timingFunctionName:(NSString*)timingFunctionName;
 
 @end

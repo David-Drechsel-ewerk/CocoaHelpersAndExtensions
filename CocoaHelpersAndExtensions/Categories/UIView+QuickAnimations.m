@@ -12,13 +12,21 @@
 
 -(void)spinWithDuration:(NSTimeInterval)spinTime repeatCount:(float)repeatCount
 {
-  CATransform3D rotationTransform = CATransform3DMakeRotation(1.0f * M_PI, 0, 0, 1.0);
-  CABasicAnimation* rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
+  [self spinWithDuration:spinTime repeatCount:repeatCount timingFunctionName:nil];
+}
+
+-(void)spinWithDuration:(NSTimeInterval)spinTime repeatCount:(float)repeatCount timingFunctionName:(NSString*)timingFunctionName
+{
+  CAMediaTimingFunction *timingFunction = timingFunctionName ? [CAMediaTimingFunction functionWithName:timingFunctionName] : nil;
   
-  rotationAnimation.toValue = [NSValue valueWithCATransform3D:rotationTransform];
-  rotationAnimation.duration = spinTime/2.0f;
+  CABasicAnimation* rotationAnimation;
+  rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+  rotationAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
+  rotationAnimation.toValue = [NSNumber numberWithFloat: M_PI * -2.0f];
+  rotationAnimation.duration = spinTime;
   rotationAnimation.cumulative = YES;
-  rotationAnimation.repeatCount = repeatCount*2.0f;
+  rotationAnimation.timingFunction = timingFunction;
+  rotationAnimation.repeatCount = repeatCount;
   
   [self.layer addAnimation:rotationAnimation forKey:@"rotationAnimation"];
 }
